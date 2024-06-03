@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="880,3449.3333333333335" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="880,3475.3333333333335" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -108,49 +108,49 @@
       <AssemblyReference>System.Private.Xml</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="890,3384.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="890,3410.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="828,3296.6666666666665" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="828,3322.6666666666665" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="794,3186.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="794,3212.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Phone Link" sap:VirtualizedContainerService.HintSize="732,3102" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="e413b866-96c8-4390-98d7-96717cc795c0" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Phone Link" sap:VirtualizedContainerService.HintSize="732,3128" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="e413b866-96c8-4390-98d7-96717cc795c0" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="698,2782" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="698,2808" sap2010:WorkflowViewState.IdRef="Sequence_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File Clients List" sap:VirtualizedContainerService.HintSize="636,2694.6666666666665" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="CLDemo">
+                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File Clients List" sap:VirtualizedContainerService.HintSize="636,2720.6666666666665" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="SLC CONTACTS NAIROBI">
                       <ueab:ExcelApplicationCard.Body>
                         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="602,2388.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="602,2414.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_4">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ueab:ExcelForEachRowX DisplayName="For Each Excel Row in Client List Name" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="540,2304" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" SaveAfterEachRow="False">
+                            <ueab:ExcelForEachRowX DisplayName="For Each Excel Row in Client List Name" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="540,2327.3333333333335" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[Excel.Sheet(&quot;Sheet2&quot;)]" SaveAfterEachRow="False">
                               <ueab:ExcelForEachRowX.Body>
                                 <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
                                   <ActivityAction.Argument1>
@@ -159,7 +159,7 @@
                                   <ActivityAction.Argument2>
                                     <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                   </ActivityAction.Argument2>
-                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="506,2080.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="506,2104" sap2010:WorkflowViewState.IdRef="Sequence_5">
                                     <Sequence.Variables>
                                       <Variable x:TypeArguments="x:String" Name="Name" />
                                       <Variable x:TypeArguments="x:String" Name="Number" />
@@ -170,22 +170,17 @@
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <ueab:ReadCellValueX Cell="[CurrentRow.ByField(&quot;Number&quot;)]" DisplayName="Read Cell Value" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,196.66666666666666" sap2010:WorkflowViewState.IdRef="ReadCellValueX_1">
-                                      <ueab:ReadCellValueX.SaveTo>
-                                        <OutArgument x:TypeArguments="x:String">[Number]</OutArgument>
-                                      </ueab:ReadCellValueX.SaveTo>
-                                    </ueab:ReadCellValueX>
-                                    <ueab:ReadCellValueX Cell="[CurrentRow.ByField(&quot;Name&quot;)]" DisplayName="Read Cell Value" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,196.66666666666666" sap2010:WorkflowViewState.IdRef="ReadCellValueX_2">
+                                    <ueab:ReadCellValueX Cell="[CurrentRow.ByField(&quot;NAME&quot;)]" DisplayName="Read Cell Value" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,196.66666666666666" sap2010:WorkflowViewState.IdRef="ReadCellValueX_1">
                                       <ueab:ReadCellValueX.SaveTo>
                                         <OutArgument x:TypeArguments="x:String">[Name]</OutArgument>
                                       </ueab:ReadCellValueX.SaveTo>
                                     </ueab:ReadCellValueX>
-                                    <ueab:ReadCellValueX Cell="[CurrentRow.ByField(&quot;Company&quot;)]" DisplayName="Read Cell Value" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,196.66666666666666" sap2010:WorkflowViewState.IdRef="ReadCellValueX_3">
+                                    <ueab:ReadCellValueX Cell="[CurrentRow.ByField(&quot;PHONE&quot;)]" DisplayName="Read Cell Value" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,196.66666666666666" sap2010:WorkflowViewState.IdRef="ReadCellValueX_2">
                                       <ueab:ReadCellValueX.SaveTo>
-                                        <OutArgument x:TypeArguments="x:String">[Company]</OutArgument>
+                                        <OutArgument x:TypeArguments="x:String">[Number]</OutArgument>
                                       </ueab:ReadCellValueX.SaveTo>
                                     </ueab:ReadCellValueX>
-                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="444,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;The Name: &quot; + Name + &quot; &quot; + &quot;The company:&quot; + Company + &quot; &quot; + &quot;The number: &quot; + Number]" />
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="444,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;The Name: &quot; + Name + &quot; &quot; + &quot;The number: &quot; + Number]" />
                                     <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New message'" sap:VirtualizedContainerService.HintSize="444,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e413b866-96c8-4390-98d7-96717cc795c0" Version="V3">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable CvElementArea="1052, 348, 67, 65" CvType="Icon" DesignTimeRectangle="1057, 351, 60, 60" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;&lt;ctrl automationid='NewMessageButton' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;&lt;ctrl automationid='NewMessageButton' role='push button' check:text='New message' /&gt;" Guid="01efec15-8291-46b6-8ed5-4b077a333cb3" ImageBase64="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" InformativeScreenshot="857e731b1134a13af9a6fbbfe52d1a23.png" ScopeSelectorArgument="&lt;wnd app='phoneexperiencehost.exe' appid='Microsoft.YourPhone_8wekyb3d8bbwe!App' title='Phone Link' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
@@ -197,7 +192,7 @@
                                       </uix:NTypeInto.Target>
                                     </uix:NTypeInto>
                                     <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="444,217.33333333333334" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
-                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Send a Message'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="444,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="e413b866-96c8-4390-98d7-96717cc795c0" Text="[&quot;Dear&quot; + &quot; &quot; + Name + &quot; &quot;+ &quot;we cordially invite&quot; + &quot; &quot; + Company + &quot; to SaccoFest Africa on the 14th. Kindly Register.&quot;]" Version="V3">
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Send a Message'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="444,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="e413b866-96c8-4390-98d7-96717cc795c0" Text="Huawei and SYBYL cordially invite you to participate in our smart school workshop on the 5th of June 2024, at the Huawei Exhibition Centre at Tiara Centre Lavington, from 9am to 2pm. As we bring you the latest in technological advancement around education and classroom experience. Kindly RSVP BY filling in this form: https://forms.gle/1UdohwpSqSTrWfbe6" Version="V3">
                                       <uix:NTypeInto.Target>
                                         <uix:TargetAnchorable CvElementArea="1200, 943, 682, 63" CvTextArea="1216, 966, 341, 21" CvTextArgument="Send a message from SIM Safaricom" CvType="Button" DesignTimeRectangle="1203, 946, 680, 60" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;&lt;ctrl name='Conversation Content' role='grouping' /&gt;&lt;ctrl automationid='InputTextBox' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;&lt;ctrl name='Conversation Content' role='grouping' /&gt;&lt;ctrl automationid='InputTextBox' role='editable text' /&gt;" Guid="a7d9fdb0-92d9-4ad0-adfd-13ad3aa47242" InformativeScreenshot="91fed1b9d43cb263e5538efae248b826.png" ScopeSelectorArgument="&lt;wnd app='phoneexperiencehost.exe' appid='Microsoft.YourPhone_8wekyb3d8bbwe!App' title='Phone Link' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
                                       </uix:NTypeInto.Target>
@@ -207,6 +202,7 @@
                                         <uix:TargetAnchorable DesignTimeRectangle="1321, 692, 60, 60" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;&lt;ctrl name='Conversation Content' role='grouping' /&gt;&lt;ctrl automationid='SendMessageButton' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;&lt;ctrl name='Conversation Content' role='grouping' /&gt;&lt;ctrl automationid='SendMessageButton' role='push button' check:text='Send' /&gt;" Guid="aff40d81-3beb-4297-a10b-16bd91dbd8f3" InformativeScreenshot="798559815d13a22faf62a0d471d125ed.png" ScopeSelectorArgument="&lt;wnd app='phoneexperiencehost.exe' appid='Microsoft.YourPhone_8wekyb3d8bbwe!App' title='Phone Link' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive" />
                                       </uix:NClick.Target>
                                     </uix:NClick>
+                                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="444,217.33333333333334" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
                                     <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="444,117.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_2" />
                                   </Sequence>
                                 </ActivityAction>
